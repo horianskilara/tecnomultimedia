@@ -16,7 +16,7 @@ class Bichos {
     bicho = loadImage ("bicho.png");
     btam = random(50, 70); 
     bx =random(-width/2, -btam); 
-    by = by_; // 
+    by = by_; 
     velocidad = random(2, 4);
     bichosGolpeados = false;
   }
