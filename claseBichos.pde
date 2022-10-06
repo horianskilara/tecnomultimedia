@@ -26,7 +26,7 @@ class Bichos {
   }
   
   void moverBichos() {
-    if (bx>width+btam || bichosGolpeados ) { // si sale de la ventana, la reiniciamos
+    if (bx>width+btam || bichosGolpeados ) { 
       bx =random(-width/2, -btam); 
       btam = random(50, 70);
       velocidad = random(2, 4);
